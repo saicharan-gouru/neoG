@@ -1,0 +1,43 @@
+/* 
+
+Using grid-areas we can build layots very easily.
+We should specify the stucture of the grid to be in the main container. 
+
+The names used while specifying the structure should be named to the specified html element using the grid-area property on that element  
+
+*/
+
+.child {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 800px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px;
+    grid-template-areas: "header header" "aside main" "aside main" "aside main" "aside main" "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: hotpink;
+}
+
+.main {
+    grid-area: main;
+    background-color: antiquewhite;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: thistle;
+}
