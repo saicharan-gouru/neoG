@@ -9,15 +9,23 @@ body {
     margin: 2rem;
 }
 
-.hero-container {
-    max-width: 350px;
+.hero-container1,
+.hero-container2 {
+    max-width: 23rem;
     margin: auto;
     background-color: white;
     border-radius: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
-.container1,
-.container2 {
+.container1:hover {
+    background-color: rgb(247, 242, 242);
+}
+
+.hero-container1 .container1,
+.hero-container1 .container2,
+.hero-container2 .container2 {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -26,8 +34,8 @@ body {
 }
 
 .hero-img {
-    width: 100px;
-    height: 130px;
+    width: 5 rem;
+    height: 10rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
@@ -54,7 +62,7 @@ h6 {
     color: black;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 0.7rem;
+    font-size: 0.85rem;
 }
 
 .btn:hover {
@@ -69,4 +77,26 @@ i {
 
 i:hover {
     background-color: gainsboro;
+}
+
+.hero-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container2 .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-heading {
+    text-align: center;
+}
+
+.desc {
+    padding: 0rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
 }
