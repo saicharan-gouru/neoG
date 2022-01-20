@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(249, 249, 255);
+}
+
+.change-mode {
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.hero-container {
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.container1,
+.container2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.hero-img {
+    width: 100px;
+    height: 130px;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.hero-heading {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    border-radius: 0.5rem;
+    border: 1px solid gainsboro;
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+}
+
+.btn:hover {
+    background-color: gainsboro;
+}
+
+i {
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+i:hover {
+    background-color: gainsboro;
+}
