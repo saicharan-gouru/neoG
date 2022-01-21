@@ -1,2 +1,2 @@
-# neoG CSS
+# neoG
  
