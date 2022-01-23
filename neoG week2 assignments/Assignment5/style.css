@@ -1,6 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+}
+
 .container {
     max-width: 30rem;
     margin: auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
 }
 
 
@@ -33,7 +42,7 @@
     background-color: red;
     width: max-content;
     font-size: 0.79rem;
-    padding: 0.5rem 0.72rem;
+    padding: 0.5rem 0.65rem;
     border-radius: 2rem;
     color: white;
     font-weight: bold;
@@ -47,6 +56,7 @@
     background-color: rgb(122, 0, 236);
     color: white;
     border-radius: 0.5rem;
+    border: 0px;
 }
 
 .badge3 {
@@ -60,4 +70,49 @@
     border-radius: 2rem;
     color: white;
     font-weight: bold;
+}
+
+
+/* badge4 */
+
+.button2 {
+    padding: 0.6rem 0.8rem;
+    background-color: rgb(122, 0, 236);
+    color: white;
+    border-radius: 0.5rem;
+    border: 0px;
+}
+
+.badge4 {
+    position: relative;
+    top: -3.8rem;
+    left: 3.4rem;
+    background-color: rgb(245, 1, 123);
+    width: max-content;
+    font-size: 0.79rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* badge5 */
+
+.fas {
+    font-size: 3rem;
+}
+
+.badge5 {
+    position: relative;
+    top: -4.3rem;
+    left: 3rem;
+    background-color: rgb(245, 1, 123);
+    width: max-content;
+    font-size: 0.79rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+    color: rgb(245, 1, 123);
 }
