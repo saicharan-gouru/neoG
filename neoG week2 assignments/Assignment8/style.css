@@ -1,0 +1,19 @@
+.tab1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 103, 103);
+    padding: 0.3rem;
+}
+
+.child {
+    padding: 0.8rem 3rem;
+}
+
+.child:hover {
+    background-color: rgb(255, 167, 4);
+}
+
+.active {
+    background-color: gold !important;
+    border-bottom: 4px solid black;
+}
