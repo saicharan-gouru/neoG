@@ -1,0 +1,71 @@
+button {
+    display: block;
+    margin: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    background-color: yellowgreen;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(156, 235, 0);
+}
+
+
+/* baseline snackbar */
+
+#baseline-snackbar {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    top: 38rem;
+    left: 40%;
+    right: 40%
+}
+
+#baseline-snackbar.show {
+    visibility: visible;
+}
+
+
+/* leading snackbar */
+
+#leading-snackbar {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    top: 38rem;
+    left: 5%;
+}
+
+#leading-snackbar.show {
+    visibility: visible;
+}
+
+
+/* stacked snackbar */
+
+#stacked-snackbar {
+    position: absolute;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    max-width: 15rem;
+    text-align: center;
+    padding: 1rem;
+    top: 34rem;
+    right: 5%;
+}
+
+#stacked-snackbar.show {
+    visibility: visible;
+}
