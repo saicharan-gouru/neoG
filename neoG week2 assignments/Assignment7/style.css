@@ -1,0 +1,39 @@
+.dialog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.dialog {
+    background-color: rgb(228, 222, 222, 0.28);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 15rem;
+    display: none;
+}
+
+.far {
+    cursor: pointer;
+}
+
+.btn-dialog {
+    padding: 1rem 3rem;
+    margin: 3rem;
+    background-color: hotpink;
+    border: 0px;
+    border-radius: 1rem;
+}
+
+.btn-dialog:hover {
+    background-color: rgb(236, 55, 146);
+}
