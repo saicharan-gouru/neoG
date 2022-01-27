@@ -5,17 +5,6 @@ const close = document.querySelector(".far");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 btnDialog.addEventListener("click", () => {
     dialog.style.display = "block";
 
