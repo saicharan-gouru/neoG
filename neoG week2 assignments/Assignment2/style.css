@@ -29,7 +29,7 @@ h2 {
 }
 
 .basic-chips-container .chip {
-    width: 2em;
+    width: 4em;
     border: 2px solid salmon;
     border-radius: 0.5rem;
     margin: 0.5rem;
