@@ -1,8 +1,12 @@
-.tab1 {
+/* basic tab  */
+
+.basic-tab {
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(248, 103, 103);
     padding: 0.3rem;
+    max-width: 80%;
+    margin: auto;
 }
 
 .child {
@@ -14,6 +18,33 @@
 }
 
 .active {
+    background-color: gold !important;
+    border-bottom: 4px solid black;
+}
+
+
+/* scrollable tab  */
+
+.scrollable-tab {
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 103, 103);
+    padding: 0.3rem;
+    overflow: scroll;
+    max-width: 80%;
+}
+
+.s-child {
+    padding: 0.8rem 3rem;
+}
+
+.s-child:hover {
+    background-color: rgb(255, 167, 4);
+}
+
+.s-active {
     background-color: gold !important;
     border-bottom: 4px solid black;
 }
